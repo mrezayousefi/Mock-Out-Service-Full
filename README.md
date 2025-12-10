@@ -5,7 +5,7 @@
 
 ## ساختار پروژه
 ```
-mock-banking-service/
+mock-out-service/
 ├─ docker-compose.yml
 ├─ mocks/
 │   └─ card-issue.json
