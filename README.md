@@ -1,6 +1,6 @@
 # Mock Banking Service
 
-این پروژه برای تست سرویس‌های بانکی بدون اتصال به سیستم اصلی طراحی شده است.
+این پروژه برای تست سرویس‌های بیرونی بدون اتصال به سیستم اصلی طراحی شده است.
 با استفاده از **Docker Compose** و **WireMock** می‌توانید سرویس‌ها را شبیه‌سازی کنید.
 
 ## ساختار پروژه
@@ -13,8 +13,8 @@ mock-banking-service/
 
 ## راه‌اندازی
 ```bash
-git clone https://github.com/<your-username>/mock-banking-service.git
-cd mock-banking-service
+git clone https://github.com/mrezayousefi/Mock-Out-Service-Full.git
+cd Mock-Out-Service-Full
 docker-compose up -d
 ```
 
