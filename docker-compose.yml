@@ -1,10 +1,10 @@
 version: "3.9"
 services:
-mock-api:
-image: wiremock/wiremock:latest
-container_name: mock-api
-ports:
-- "8080:8080"
-volumes:
-- ./mocks:/home/wiremock/mappings
-restart: unless-stopped
+  mock-api:
+    image: wiremock/wiremock:latest
+    container_name: mock-api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./mocks:/home/wiremock/mappings
+    restart: unless-stopped
