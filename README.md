@@ -1,4 +1,4 @@
-# Mock OUT Service
+# Mock OUT Service - تست سرویس‌های بیرونی با WireMock و Docker Compose
 
 این پروژه برای تست سرویس‌های بیرونی بدون اتصال به سیستم اصلی طراحی شده است.
 با استفاده از **Docker Compose** و **WireMock** می‌توانید سرویس‌ها را شبیه‌سازی کنید.
